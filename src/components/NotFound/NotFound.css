@@ -1,0 +1,10 @@
+.error img {
+    width: 600px;
+    height: 400px;
+}
+
+.error {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 40px;
+}
