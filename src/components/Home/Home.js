@@ -11,7 +11,7 @@ const Home = () => {
     return (
         <div>
             <div className='container'>
-                <div className='details'>
+                <div className='container-details'>
                     <h1 id='heading1'>Your Next Choice</h1>
                     <h1 id='heading2'>Your Best Choice</h1>
                     <p>Your best choice is here.Here is a lot of laptop collection.If you want any kind of laptop and barand or color etc, we will provied us instantly.Our shop is the best and trust worthy not only in area but also in city.Our product and service is masterpice. So sir/medum please visit our shop and choice your next one
@@ -19,12 +19,12 @@ const Home = () => {
                     <br />
                     <p><button className='btn'>Live Demo</button></p>
                 </div>
-                <div className='image'>
+                <div className='container-image'>
                     <img src={image} alt="" />
                 </div>
             </div>
 
-            <h2>Customer Feedback:{laptops.length}</h2>
+            <h2>Customer Feedback</h2>
             <div className='laptop-info'>
                 {
                     laptops.slice(0, 3).map(laptop => <Laptop

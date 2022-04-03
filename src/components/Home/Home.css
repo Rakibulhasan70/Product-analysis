@@ -4,8 +4,9 @@
     padding: 20px 60px;
 }
 
-.image img {
+.container-image img {
     width: 350px;
+    border-radius: 15px;
 }
 
 #heading1 {
@@ -18,7 +19,7 @@
     color: purple;
 }
 
-.details p {
+.container-details p {
     text-align: start;
 }
 
