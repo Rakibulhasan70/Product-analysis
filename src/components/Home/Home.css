@@ -21,3 +21,13 @@
 .details p {
     text-align: start;
 }
+
+.btn {
+    color: darkblue;
+    font-weight: 500;
+    padding: 12px 25px;
+    border: 0;
+    background-color: skyblue;
+    border-radius: 4px;
+    margin-left: 10px;
+}
