@@ -36,4 +36,19 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
+    margin: 0px 30px;
+}
+
+.showing-all-btn {
+    text-decoration: none;
+    border: 0;
+    padding: 2px 25px;
+    padding-bottom: 4px;
+    border-radius: 10px;
+    background-color: darkblue;
+    color: white;
+}
+
+.showing-all-btn:hover {
+    color: red;
 }

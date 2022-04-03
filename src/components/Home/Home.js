@@ -3,6 +3,7 @@ import './Home.css'
 import image from '../../Images/mackbook.jpg'
 import UseProduct from '../../Hook/UseProduct';
 import Laptop from '../Laptop/Laptop';
+import { Link } from 'react-router-dom';
 
 
 const Home = () => {
@@ -31,7 +32,16 @@ const Home = () => {
                         laptop={laptop}
                     ></Laptop>)
                 }
+
             </div>
+            <br />
+            <br />
+            <Link to='/reviews' className='showing-all-btn'>See all reveiws</Link>
+
+            <br />
+            <br />
+            <br />
+            <br />
         </div>
     );
 };

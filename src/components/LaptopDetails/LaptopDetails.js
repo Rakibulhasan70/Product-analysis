@@ -1,11 +1,10 @@
 import React from 'react';
-import './Laptop.css'
+import './LaptopDetails.css'
 
-const Laptop = (props) => {
-    console.log(props.laptop);
+const LaptopDetails = (props) => {
     const { name, picture, rating, text } = props.laptop
     return (
-        <div className='laptop-detail'>
+        <div className='laptopDetailsAll'>
             <img src={picture} alt="" />
             <h3>Name:{name}</h3>
             <h5>Rating: {rating} star</h5>
@@ -14,4 +13,4 @@ const Laptop = (props) => {
     );
 };
 
-export default Laptop;
+export default LaptopDetails;
