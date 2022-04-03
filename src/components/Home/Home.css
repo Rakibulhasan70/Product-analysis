@@ -31,3 +31,9 @@
     border-radius: 4px;
     margin-left: 10px;
 }
+
+.laptop-info {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
