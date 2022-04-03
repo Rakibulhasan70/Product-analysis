@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px;
+}
+
+.image img {
+    width: 350px;
+}
+
+#heading1 {
+    font-size: 40px;
+    color: darkblue;
+}
+
+#heading2 {
+    font-size: 35px;
+    color: purple;
+}
+
+.details p {
+    text-align: start;
+}
