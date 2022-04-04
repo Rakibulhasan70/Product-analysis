@@ -89,6 +89,7 @@ const MyLineChart = () => {
                     <YAxis dataKey='sell'></YAxis>
                     <Tooltip></Tooltip>
                 </LineChart>
+                <p>Line Chart</p>
             </div>
             <div>
                 <BarChart width={250} height={200} data={data1}>
@@ -99,6 +100,7 @@ const MyLineChart = () => {
                     <YAxis data='investment'></YAxis>
                     <Tooltip></Tooltip>
                 </BarChart>
+                <p>Bar Chart</p>
             </div>
             <div>
                 <AreaChart width={300} height={200} data={data1}>
@@ -107,13 +109,16 @@ const MyLineChart = () => {
                     <Area dataKey='revenue' stroke="#82ca9d"></Area>
                     <XAxis dataKey='month' ></XAxis>
                     <YAxis data='investment'></YAxis>
+                    <Tooltip></Tooltip>
                 </AreaChart>
+                <p>Area Chart</p>
                 <div>
                     <PieChart width={300} height={200}>
                         <Pie data={data1} dataKey="sell" nameKey="name" cx="50%" cy="50%" outerRadius={50} fill="#8884d8" />
                         <Pie data={data2} dataKey="revenue" nameKey="name" cx="50%" cy="50%" innerRadius={60} outerRadius={80} fill="#82ca9d" label />
                         <Tooltip></Tooltip>
                     </PieChart>
+                    <p>Pie Chart</p>
                 </div>
             </div>
         </div>
