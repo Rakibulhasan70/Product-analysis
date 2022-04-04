@@ -4,10 +4,10 @@ Laptop Hangout
 
 ## Got to my project link and enjoy it
 
-This is my project Live site link 
+This is my project Live site link [https://laptop-hangout.netlify.app/](https://laptop-hangout.netlify.app/) to view in your browser
 
 
-## The features of my fancy project
+## The details of my fancy project
 
 *1. This project is full about of Laptop.*
 *2. There are some customer feedback in this site.*
