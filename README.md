@@ -7,13 +7,13 @@ Laptop Hangout
 This is my project Live site link [https://laptop-hangout.netlify.app/](https://laptop-hangout.netlify.app/) to view in your browser
 
 
-## The details of my fancy project
+### The details of my fancy project
 
-1. This project is full about of Laptop.
-2. There are some customer feedback in this site.
-3. In this site i want to show some Charts which is very much usefull.
-4. LineChart, BarChart, AreaChart, PieChart are here.
-5. In this site i ans some basic qus ans in blog site, If anybody want to learn please go to blog page.
+- This project is full about of Laptop.
+- There are some customer feedback in this site.
+- In this site i want to show some Charts which is very much usefull.
+- LineChart, BarChart, AreaChart, PieChart are here.
+- In this site i ans some basic qus ans in blog site, If anybody want to learn please go to blog page.
 ## Available Scripts
 
 In the project directory, you can run:
